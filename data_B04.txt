@@ -1,0 +1,568 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177950635-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-177950635-1');
+    </script>
+    <title>POLENG - Machine learnig solutions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="W POLENG pomagamy Wam wykorzystać Wasze dane, by lepsze decyzje zwiększały Wasze zyski. Z pasją tworzymy dla Was rozwiązania z zakresu Machine Learning">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="/css/jquery-ui.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="/css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="/css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="/fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="/css/aos.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/flag.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcpxvMUAAAAAI0yAZ_BNK4cUypbCUlpZx3BeYqB"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+    <link rel="manifest" href="/icon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script type="application/ld+json">
+  {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://polengmt.com/#kontakt",
+                "name": "POLENG",
+                "url": "https://polengmt.com/",
+                "sameAs": [
+                    "https://linkedin.com/company/pwnai"
+                ],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://polengmt.com/#logo",
+                    "inLanguage": "pl-PL",
+                    "url": "https://polengmt.com/images/logo-white.svg",
+                    "width": 606,
+                    "height": 214,
+                    "caption": "POLENG"
+                },
+                "image": {
+                    "@id": "https://polengmt.com/#logo"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://polengmt.com/#website",
+                "url": "https://polengmt.com/",
+                "name": "POLENG - Rozwiązania z zakresu Machine Learning",
+                "description": "W POLENG pomagamy Wam wykorzystać Wasze dane, by lepsze decyzje zwiększały Wasze zyski. Z pasją tworzymy dla Was rozwiązania z zakresu Machine Learning.",
+                "publisher": {
+                    "@id": "https://polengmt.com/#organization"
+                },
+                "inLanguage": "pl-PL"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://polengmt.com/#webpage",
+                "url": "https://polengmt.com/",
+                "name": "POLENG - Rozwiązania z zakresu Machine Learning",
+                "isPartOf": {
+                    "@id": "https://polengmt.com/#website"
+                },
+                "about": {
+                    "@id": "https://polengmt.com/#organization"
+                },
+                "description": "W POLENG pomagamy Wam wykorzystać Wasze dane, by lepsze decyzjezwiększały Wasze zyski. Z pasją tworzymy dla Was rozwiązania z zakresu Machine Learning.",
+                "inLanguage": "pl-PL",
+                "potentialAction": [
+                    {
+                        "@type": "ReadAction",
+                        "target": [
+                            "https://polengmt.com/"
+                        ]
+                    }
+                ]
+            },
+            {
+                "@type": "LocalBusiness",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "ul. Pamiątkowa 24/1",
+                    "postalCode": "61-505",
+                    "addressLocality": "Poznań",
+                    "addressCountry": "Poland"
+                },
+                "description": "W POLENG pomagamy Wam wykorzystać Wasze dane, by lepsze decyzje zwiększały Wasze zyski. Z pasją tworzymy dla Was rozwiązania z zakresu Machine Learning.",
+                "name": "POLENG - Rozwiązania z zakresu Machine Learning",
+                "url": "https://polengmt.com/",
+                "telephone": "+48 61 66 11 556",
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://polengmt.com/#logo",
+                    "inLanguage": "pl-PL",
+                    "url": "https://polengmt.com/images/logo-white.svg",
+                    "width": 606,
+                    "height": 214,
+                    "caption": "POLENG"
+                },
+                "image": {
+                    "@id": "https://polengmt.com/#logo"
+                }
+            }
+        ]
+    }
+</script>
+    </head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300" class="">
+<div id="overlayer"></div>
+<div class="loader">
+    <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+
+
+<div class="site-wrap">
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <header class="site-navbar py-4 js-sticky-header  site-navbar-target">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-6 col-xl-2">
+                    <div class="mb-0 site-logo">
+                        <a href="/en" class="h2 mb-0">
+                            <img id="logo" class="logo" alt="Logo" src="/images/logo-white.svg" height="48" />
+                            <img class="logo-sticky" alt="Logo" src="/images/logo.svg" height="48" />
+                            <span class="text-primary"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                            <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+        <li class="has-children">
+            <a href="/en/about-us" class="nav-link">About us</a>
+            <ul class="dropdown">
+                <li><a href="/en/our-team" class="nav-link">Our team</a></li>
+                <li class="has-children">
+                    <a href="#">Selected projects</a>
+                    <ul class="dropdown">
+                        <li><a target="_blank" href="https://translaide.pl/index_en.html"><small>Corporate translation software</small><br/>TranslAide</a></li>
+                        <li><a target="_blank" href="https://translatica.pl"><small>Translation portal</small><br/>Translatica</a></li>
+                        <li><a target="_blank" href="https://sjp.pwn.pl">PWN Polish Dictionary</a></li>
+                        <li><a target="_blank" href="https://encyklopedia.pwn.pl">PWN Encyclopaedia</a></li>
+                    </ul>
+                </li>
+                <li><a href="/en/#what-our-customers-say" class="nav-link">What our customers say</a></li>
+                <li><a href="/en/faq" class="nav-link">FAQ</a></li>
+            </ul>
+        </li>
+
+        <li class="has-children">
+            <a href="/en/#our-services" class="nav-link">Our services</a>
+            <ul class="dropdown">
+                                    <li><a class="s-automation nav-link" href="/en/our-services/business-process-automation">Business process automation</a></li>
+                                    <li><a class="s-prediction nav-link" href="/en/our-services/big-data-analysis">Making practical use of Big Data</a></li>
+                                    <li><a class="s-mt nav-link" href="/en/our-services/natural-language-processing">Automatic translation | Natural language processing</a></li>
+                                    <li><a class="s-education nav-link" href="/en/our-services/e-learning-systems">Education | E-learning</a></li>
+                            </ul>
+        </li>
+
+        <li><a href="/en/our-projects" class="nav-link">Our projects</a></li>
+        <li><a href="/en/our-translator" class=" nav-link">Our Translator</a></li>
+        <li><a href="/en/blog" class="nav-link">Blog</a></li>
+        <li><a href="/en/#contact" class="nav-link">Contact</a></li>
+                    <li><a href="/"><span class="flag flag-pl"></span></a></li>
+                </ul>
+                    </nav>
+                </div>
+
+                <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a
+                        href="#" class="site-menu-toggle js-menu-toggle float-right"><span
+                            class="icon-menu h3"></span></a></div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <div class="site-blocks-cover overlay" style="background-image: url(/images/banner12.jpg);" data-aos="fade"
+     id="home-section">
+
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="slider-intro col-md-8 mt-lg-5 text-center">
+                <h1 class="text-uppercase" data-aos="fade-up">Advanced AI Solutions</h1>
+                <p class="mb-5 desc" data-aos="fade-up" data-aos-delay="100">
+                    Your success depends on your idea, your efforts, and the technology that supports you. We are sure you have a great team. We can provide great software that will support your idea.
+We are scientists with a high level of business experience. We develop custom AI/ML solutions fast and to a high standard. We will find the right solution to get your assets working more effectively for your profits.
+                </p>
+                <div data-aos="fade-up" data-aos-delay="100">
+                    <a href="/en/#contact" class="btn smoothscroll btn-primary mr-2 mb-2">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="/en/about-us" class="mouse smoothscroll">
+        <span class="mouse-icon">
+            <span class="mouse-wheel"></span>
+        </span>
+    </a>
+</div>
+<section class="site-section" id="about-section">
+    <div class="container">
+        <div class="row mb-5 justify-content-center">
+    <div class="col-md-7 text-center">
+        <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">About us</h2>
+        <p class="lead" data-aos="fade-up" data-aos-delay="100">
+            At POLENG, we can share with you the latest scientific knowledge about machine learning. Using information technologies, we can turn that knowledge into practical solutions that will make your key planning and management processes more effective, and enable you to take objectively measured decisions based on knowledge extracted from vast data resources. We will also help increase your profits, because in the information era, making better use of data brings a huge competitive advantage. Our systems will give you that advantage.
+        </p>
+    </div>
+</div>
+
+        <div data-aos="fade-up" data-aos-delay="100" class="text-center">
+            <a href="/en/about-us" class="btn smoothscroll btn-primary mr-2 mb-2">Learn more</a>
+        </div>
+    </div>
+</section>
+<section class="site-section border-bottom bg-light" id="our-services">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center" data-aos="fade">
+                <h2 class="section-title mb-3">Our services</h2>
+                <p class="lead" data-aos="fade-up" data-aos-delay="100">
+                    Artificial intelligence systems are able to support decision-making mechanisms in practically every line of business. Machine learning enables the construction of systems that make use of the knowledge contained in vast data resources, of a kind that humans would not be able to analyse on a realistic time-scale. Based on properly chosen methods of machine learning, solutions can be developed that will learn to analyse numerical or text data at astonishingly high speed. With our business experience, combined with scientific knowledge in the field of machine learning, we can rapidly select optimum machine learning methods to face even the toughest challenges. Time and cost savings, the possibility of making decisions based on reliable objective data, and the ability to forecast future trends are just some of the many benefits that these methods bring. Artificial intelligence systems are a source of competitive advantage, and will thus help you to maximise your profits.
+                </p>
+            </div>
+        </div>
+        <div class="row align-items-stretch">
+                            <div class="s-automation col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up">
+                    <div class="unit-4">
+                        <div class="unit-4-icon mr-4"><i class="service-icon text-primary fa fa-users"></i></div>
+                        <div>
+                            <h3 class="service-name"><a href="/en/our-services/business-process-automation">Business process automation</a></h3>
+                            <p>The complexity of business decision-making, requiring the simultaneous analysis and evaluation of a wide range of variables and parameters, is a clear reason to give serious consideration to automating these actions. We can create custom solutions that will perform complex analyses in the blink of an eye, making it easy to reach decisions which are much more accurate than those produced even by large teams of analysts. Moreover, these systems will not suffer from tiredness or unreliability …</p>
+                            <p><a rel="nofollow" class="service-link" href="/en/our-services/business-process-automation">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                            <div class="s-prediction col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up">
+                    <div class="unit-4">
+                        <div class="unit-4-icon mr-4"><i class="service-icon text-primary fa fa-chart-line"></i></div>
+                        <div>
+                            <h3 class="service-name"><a href="/en/our-services/big-data-analysis">Making practical use of Big Data</a></h3>
+                            <p>Every second, uncountable quantities of new data are produced all over the world. This data can be a source of invaluable knowledge, but you need to have the ability to extract that knowledge. We will help you acquire useful information from available resources, and then make use of it with the help of practical tools supporting business and decision-making processes. Use the available data to give yourself the competitive advantage you need.</p>
+                            <p><a rel="nofollow" class="service-link" href="/en/our-services/big-data-analysis">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                            <div class="s-mt col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up">
+                    <div class="unit-4">
+                        <div class="unit-4-icon mr-4"><i class="service-icon text-primary fa fa-language"></i></div>
+                        <div>
+                            <h3 class="service-name"><a href="/en/our-services/natural-language-processing">Automatic translation | Natural language processing</a></h3>
+                            <p>We can facilitate the development and international scalability of your business by creating automatic translation systems based on methods such as deep learning. Computer tools for language processing also provide opportunities for instant analysis of texts, such as customer opinions about your products and services. And there are many more applications besides… </p>
+                            <p><a rel="nofollow" class="service-link" href="/en/our-services/natural-language-processing">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                            <div class="s-education col-md-6 col-lg-6 mb-4 mb-lg-4" data-aos="fade-up">
+                    <div class="unit-4">
+                        <div class="unit-4-icon mr-4"><i class="service-icon text-primary fa fa-graduation-cap"></i></div>
+                        <div>
+                            <h3 class="service-name"><a href="/en/our-services/e-learning-systems">Education | E-learning</a></h3>
+                            <p>Modern education requires carefully selected knowledge, attractive multimedia presentation, and secure remote access at any time from any device. When standard forms of education are complemented with exercises in an environment simulating real conditions, gamification features, and a forum for sharing experiences, they will effectively encourage every student to learn and develop, regardless of their age or level of education. We will be happy to help you achieve this.</p>
+                            <p><a rel="nofollow" class="service-link" href="/en/our-services/e-learning-systems">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+</section>
+
+<section class="portfolio site-section" id="portfolio-section">
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-12 text-center" data-aos="fade">
+                <h2 class="section-title mb-3">Portfolio</h2>
+            </div>
+        </div>
+
+        <p>POLENG creates practical solutions for the analysis of numerical and text data. By making use of the latest technologies and scientific knowledge, our solutions can improve the key current decision-making processes and make everyday planning and management more effective. Our business experience and scientific knowledge in the field of machine learning enable us to select the most suitable methods for a specific task. This ensures that our solutions will be highly effective, and significantly reduces the time needed to customise them to your needs.</p>
+
+        <div data-aos="fade-up" data-aos-delay="100" class="text-center">
+            <a href="/en/our-projects" class="btn smoothscroll btn-primary mr-2 mb-2">See our portfolio</a>
+        </div>
+    </div>
+</section>
+<section class="site-section testimonial-wrap" id="what-our-customers-say" data-aos="fade">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="section-title mb-3">What our customers say</h2>
+            </div>
+        </div>
+    </div>
+    <div class="slide-one-item home-slider owl-carousel">
+                    <div class="testimonial">
+                <blockquote class="mb-5">
+                    <p>&ldquo;I greatly value our collaboration with POLENG, in particular for their wide experience and practical knowledge, which enabled them to take on full responsibility for the creation of the solution we needed. Our exceptionally innovative project turned out to be a success thanks to the robust performance of their software, which we have been using even after the project has been completed.&rdquo;</p>
+                </blockquote>
+
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                                        <p>Grzegorz Krynicki PhD, Faculty of English, Adam Mickiewicz University, Poznań</p>
+                </figure>
+            </div>
+                    <div class="testimonial">
+                <blockquote class="mb-5">
+                    <p>&ldquo;We have been working with POLENG for the past nine years. For all of this time we have been supporting and developing an online wholesale ordering system. We have gone through changes of technologies and operating systems. POLENG demonstrates flexibility and the ability to adapt to changing conditions, and for that reason we are eager to continue working with them.&rdquo;</p>
+                </blockquote>
+
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                                        <p>Jarosław Gierz, Head of IT, Decora</p>
+                </figure>
+            </div>
+                    <div class="testimonial">
+                <blockquote class="mb-5">
+                    <p>&ldquo;We began using the services of <strong>POLENG</strong> at the initial stage of our <strong>CDeX</strong> (Cyber Defence eXercise Platform)
+project. The vast knowledge and commitment of the <strong>POLENG</strong> team enabled the successful design of a platform for conducting
+cybersecurity training.
+The <strong>POLENG</strong> team coped excellently with our innovative and complex idea of building an environment
+that reproduces a real ICT infrastructure as faithfully as possible, enabling the simulation of attacks in real time
+to provide trainees with practical experience of the mechanisms of such attacks. Following successful completion of the first deployment,
+we were pleased to entrust <strong>POLENG</strong> with the next stage of the expansion of our platform.
+&rdquo;</p>
+                </blockquote>
+
+                <figure class="mb-4 d-flex align-items-center justify-content-center">
+                                        <p>Krystian Piwowarczyk, Chief Technology Officer, Vector Synergy</p>
+                </figure>
+            </div>
+            </div>
+</section>
+
+<section class="site-section bg-light" id="contact" data-aos="fade">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <h2 class="section-title mb-3">Contact us</h2>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-4 text-center">
+                <p class="mb-4">
+                    <span class="icon-room d-block h4 text-primary"></span>
+                    <span>ul. Pamiątkowa 24/1, 61-505 Poznań, Poland</span>
+                </p>
+            </div>
+            <div class="col-md-4 text-center">
+                <p class="mb-4">
+                    <span class="icon-phone d-block h4 text-primary"></span>
+                    <a href="tel:+48616412586">+48 61 641 25 86</a>
+                </p>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <p class="mb-0">
+                    <span class="icon-mail_outline d-block h4 text-primary"></span>
+                    <a id="email" href=""></a>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-5">
+
+
+                <form action="/wyslij" class="p-5 bg-white" method="post">
+
+                    <h2 class="h4 text-black mb-5">Send us a message</h2>
+
+                    <div class="row form-group">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <label class="text-black" for="fname">Forename<sup style="color:red;">*</sup></label>
+                            <input required type="text" id="fname" class="form-control" name="first_name">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="text-black" for="lname">Surname</label>
+                            <input type="text" id="lname" class="form-control" name="last_name">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+
+                        <div class="col-md-12">
+                            <label class="text-black" for="email">E-mail address<sup style="color:red;">*</sup></label>
+                            <input type="email" name="email" required id="email" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+
+                        <div class="col-md-12">
+                            <label class="text-black" for="subject">Subject<sup style="color:red;">*</sup></label>
+                            <input required type="text" name="subject" id="subject" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <label class="text-black" for="message">Message<sup style="color:red;">*</sup></label>
+                            <textarea required name="message" id="message" cols="30" rows="7" class="form-control"
+                                      placeholder="Enter a message here..."></textarea>
+                        </div>
+                    </div>
+
+                    <input id="recaptchaResponse" name="recaptcha_response" type="hidden">
+
+                    <div class="row form-group">
+                        <div class="col-md-12 text-center">
+                            <input type="submit" value="Send a message" class="btn btn-primary btn-md text-white">
+                        </div>
+                    </div>
+
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        grecaptcha.ready(function () {
+            grecaptcha.execute('6LcpxvMUAAAAAI0yAZ_BNK4cUypbCUlpZx3BeYqB', { action: 'contact' }).then(function (token) {
+                let recaptchaResponse = document.getElementById('recaptchaResponse');
+                recaptchaResponse.value = token;
+            });
+        });
+    </script>
+</section>
+<div id="translator-toast" class="translator-toast">
+    <img src="/images/translate-24px.svg" alt="Neural Machine Translation System"/>
+    <a href="/en/our-translator" class=" nav-link">
+        Our Translator    </a>
+</div>
+    <footer class="site-footer">
+        <div class="container">
+                <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="footer-heading mb-4">About us</h4>
+                    <p>POLENG is made up of both scientists and practical specialists. The company’s founder is Dr Krzysztof Jassem, a professor at Adam Mickiewicz University in Poznań, who in 1997 began the first research on automatic translation in Poland. Two years after his company’s founding, in 2003, it joined forces with PWN Scientific Publishers, a Polish publishing house with a 65-year tradition.</p>
+                </div>
+                <div class="col-md-3 ml-auto">
+                    <h4 class="footer-heading mb-4">Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="/en/about-us" class="smoothscroll">About us</a></li>
+                        <li><a href="/en/#our-services" class="smoothscroll">Our services</a></li>
+                        <li><a href="/en/#what-our-customers-say" class="smoothscroll">What our customers say</a></li>
+                        <li><a href="/en/#contact" class="smoothscroll">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="footer-heading mb-4">Follow us</h4>
+                    <a target="_blank" href="https://linkedin.com/company/pwnai" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row pt-5 mt-5 text-center">
+        <div class="col-md-12">
+            <div class="border-top pt-5">
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+                    All rights reserved | This template is made with <i class="icon-heart text-danger"
+                                                                        aria-hidden="true"></i> by <a
+                        href="https://colorlib.com" target="_blank">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+
+            </div>
+        </div>
+
+    </div>
+        </div>
+    </footer>
+
+</div> <!-- .site-wrap -->
+
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/jquery-ui.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/jquery.countdown.min.js"></script>
+<script src="/js/jquery.easing.1.3.js"></script>
+<script src="/js/aos.js"></script>
+<script src="/js/jquery.fancybox.min.js"></script>
+<script src="/js/jquery.sticky.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/isotope.pkgd.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/base.js"></script>
+<script src="/js/App.js"></script>
+<script src="/js/Locale.js"></script>
+<script type="text/javascript">
+    App.url="";
+    Locale.init({"_email":{"pl":"kontakt@polengmt.com","en":"contact@polengmt.com"},"_adres":{"pl":"ul. Pami\u0105tkowa 24\/1, 61-505 Pozna\u0144","en":"ul. Pami\u0105tkowa 24\/1, 61-505 Pozna\u0144, Poland"},"_telefon":{"pl":"61 61 641 25 86","en":"+48 61 641 25 86"},"POLENG - Rozwi\u0105zania z zakresu Machine Learning":{"en":"POLENG - Machine learnig solutions"},"Nasze realizacje | POLENG":{"en":"Our projects | POLENG"},"\/":{"en":"\/en"},"\/o-nas":{"en":"\/en\/about-us"},"\/nasz-zespol":{"en":"\/en\/our-team"},"\/nasze-realizacje":{"en":"\/en\/our-projects"},"\/faq":{"en":"\/en\/faq"},"\/blog":{"en":"\/en\/blog"},"\/#nasze-uslugi":{"en":"\/en\/#our-services"},"\/nasze-uslugi":{"en":"\/en\/our-services"},"\/#nasi-klienci-o-nas":{"en":"\/en\/#what-our-customers-say"},"\/zespol":{"en":"\/en\/our-team"},"\u0141adowanie...":{"en":"Loading..."},"Zaawansowane rozwi\u0105zania AI":{"en":"Advanced AI Solutions"},"Skontaktuj si\u0119 z nami":{"en":"Contact us"},"Wy\u015blij wiadomo\u015b\u0107 do nas":{"en":"Send us a message"},"Imi\u0119":{"en":"Forename"},"Nazwisko":{"en":"Surname"},"Adres e-mail":{"en":"E-mail address"},"Temat":{"en":"Subject"},"Wiadomo\u015b\u0107":{"en":"Message"},"Wy\u015blij wiadomo\u015b\u0107":{"en":"Send a message"},"Wpisz tutaj swoj\u0105 uwag\u0119 lub pytanie...":{"en":"Enter a message here..."},"Dowiedz si\u0119 wi\u0119cej":{"en":"Learn more"},"O nas":{"en":"About us"},"Sprawd\u017a nasze portfolio":{"en":"See our portfolio"},"Nasze us\u0142ugi":{"en":"Our services"},"Nasze realizacje":{"en":"Our projects"},"Nasi klienci o nas":{"en":"What our customers say"},"@kontakt":{"en":"@contact"},"Nasz zesp\u00f3l":{"en":"Our team"},"Nasze wybrane realizacje":{"en":"Selected projects"},"nasze-uslugi":{"en":"our-services"},"nasi-klienci-o-nas":{"en":"what-our-customers-say"},"kontakt":{"en":"contact"},"kontakt@polengmt.com":{"en":"contact@polengmt.com"},"Translator korporacyjny":{"en":"Corporate translation software"},"Portal t\u0142umaczeniowy":{"en":"Translation portal"},"S\u0142ownik j\u0119zyka polskiego PWN":{"en":"PWN Polish Dictionary"},"Encyklopedia PWN":{"en":"PWN Encyclopaedia"},"Linki":{"en":"Links"},"\u015aled\u017a nas":{"en":"Follow us"},"Kontakt":{"en":"Contact"},"Nasz zesp\u00f3\u0142":{"en":"Our team"},"Wszystkie":{"en":"All"},"Przetwarzanie j\u0119zyka naturalnego":{"en":"Natural language processing"},"Automatyzacja proces\u00f3w biznesowych":{"en":"Business process automation"},"Prognozowanie | Analiza danych":{"en":"Prediction | Data analysis"},"Edukacja | E-learning":{"en":"Education | E-learning"},"Projekt":{"en":"Project"},"O projekcie":{"en":"Project report"},"Klient":{"en":"Customer"},"Wdro\u017cenie":{"en":"Product"},"Zakres prac":{"en":"Objective"},"Rok wdro\u017cenia":{"en":"Year deployed"},"Technologie":{"en":"Technology used"},"Programowanie":{"en":"Programming"},"Wiedza":{"en":"Knowledge"},"Nowe rozwi\u0105zania":{"en":"New solutions"},"Blog":{"en":"Blog"},"Nasz blog":{"en":"Our Blog"},"Czytaj dalej...":{"en":"Continue Reading..."},"Wpis":{"en":"Post"},"Sprawd\u017a nasz blog!":{"en":"See our blog!"},"https:\/\/translaide.pl":{"en":"https:\/\/translaide.pl\/index_en.html"},"FAQ":{"pl":"Jakie problemy mo\u017cemy rozwi\u0105za\u0107?","en":"FAQ"},"Translator":{"pl":"Translator<br\/><small>zbudowany na sieciach neuronowych<\/small>","en":"Neural Machine Translation System"},"Nasz translator":{"en":"Our Translator"},"\/nasz-translator":{"en":"\/en\/our-translator"},"pl":{"pl":"j\u0119zyk polski","en":"Polish"},"en":{"pl":"j\u0119zyk angielski","en":"English"},"ru":{"pl":"j\u0119zyk rosyjski","en":"Russian"},"plen":{"pl":"polsko-angielski","en":"Polish-English"},"enpl":{"pl":"angielsko-polski","en":"English-Polish"},"plru":{"pl":"polsko-rosyjski","en":"Polish-Russian"},"rupl":{"pl":"rosyjsko-polski","en":"Russian-Polish"},"T\u0142umacz":{"en":"Translate"},"Przyk\u0142ady":{"pl":"Przet\u0142umacz przyk\u0142adowe zdanie:","en":"Translate these:"},"Wpisz tutaj tekst...":{"en":"Enter text here..."},"T\u0142umaczenie...":{"en":"Translation..."},"Translator niedost\u0119pny":{"pl":"Translator chwilowo niedost\u0119pny...","en":"Translator is temporarily unavailable..."},"Spis tre\u015bci":{"en":"Contents"}});
+    Locale.setLocale("en");
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        let anchor=null;
+
+        $('#email').html(Locale.get('_email')).attr('href','mailto:'+Locale.get('_email'));
+
+        if(anchor){
+            let $anchor=$('#'+anchor);
+            let top=$anchor.offset().top;
+
+            $(document).scrollTop(top-100);
+        }
+    });
+</script>
+</body>
+</html>

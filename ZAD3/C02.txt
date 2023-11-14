@@ -1,0 +1,6 @@
+Toyota Camry 130
+Ford Mustang 150
+Chevrolet Corvette 180
+Honda Civic 120
+Nissan Altima 140
+
